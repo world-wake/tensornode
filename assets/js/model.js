@@ -27,7 +27,7 @@ const mobilenetDemo = async () => {
     catElement.onload = () => {
       predict(catElement);
       catElement.style.display = '';
-    }
+    };
   }
 
   document.getElementById('file-container').style.display = '';
@@ -174,4 +174,4 @@ const predictionsElement = document.getElementById('predictions');
 
 
 
-mobilenetDemo();
+//mobilenetDemo();
